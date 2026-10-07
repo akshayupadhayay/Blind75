@@ -18,3 +18,4 @@ response = requests.put(
 assert response.status_code == 200
 assert response.json()["id"] == 499
 print(response.json()["id"])
+print(response.status_code)
